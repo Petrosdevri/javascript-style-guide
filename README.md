@@ -20,45 +20,45 @@
 
 ## Πίνακας Περιεχομένων
 
-  1. [Tύποι](#tύποι-types) (Types)
+  1. [Tύποι (Types)](#tύποι-types)
   1. [Αναφορές](#αναφορές)
-  1. [Αντικείμενα](#αντικείμενα-objects) (Objects)
-  1. [Πίνακες](#πίνακες-arrays) (Arrays)
-  1. [Αποδόμηση](#αποδόμηση-destructuring) (Destructuring)
-  1. [Συμβολοσειρές](#συμβολοσειρές-strings) (Strings)
-  1. [Συναρτήσεις](#συναρτήσεις-functions) (Functions)
-  1. [Συναρτήσεις Βέλους](#συναρτήσεις-βέλους-arrow-functions) (Arrow Functions)
-  1. [Κλάσεις & Κατασκευαστές](#κλάσεις--κατασκευαστές-classes--constructors) (Classes & Constructors)
-  1. [Ενότητες](#ενότητες-modules) (Modules)
-  1. [Επαναλήπτες & Γενικευτές](#επαναλήπτες--γενικευτές-iterators--generators) (Iterators & Generators)
-  1. [Ιδιότητες](#ιδιότητες-properties) (Properties)
-  1. [Μεταβλήτές](#μεταβλητές-variables) (Variables)
-  1. [Ανύψωση](#ανύψωση-hoisting) (Hoisting)
-  1. [Τελεστές Σύγκρισης & Ισότητα](#τελεστές-σύγκρισης--ισότητα-comparison-operators--equality) (Comparison Operators & Equality)
-  1. [Μπλοκ](#blocks) (Blocks)
-  1. [Δηλώσεις Ελέγχου](#control-statements) (Control Statements)
-  1. [Σχόλια](#comments) (Comments)
-  1. [Κενοί Χώροι](#whitespace) (Whitespace)
-  1. [Κόμματα](#commas) (Commas)
-  1. [Ερωτηματικά](#semicolons) (Semicolons)
-  1. [Casting Τύπων & Καταναγκασμός](#type-casting--coercion) (Type Casting & Coercion)
-  1. [Συμβάσεις Ονομασίας](#naming-conventions) (Naming Conventions)
-  1. [Accessors](#accessors)
-  1. [Γεγονότα](#events) (Events)
+  1. [Αντικείμενα (Objects)](#αντικείμενα-objects)
+  1. [Πίνακες (Arrays)](#πίνακες-arrays)
+  1. [Αποδόμηση (Destructuring)](#αποδόμηση-destructuring)
+  1. [Συμβολοσειρές (Strings)](#συμβολοσειρές-strings)
+  1. [Συναρτήσεις (Functions)](#συναρτήσεις-functions)
+  1. [Συναρτήσεις Βέλους (Arrow Functions)](#συναρτήσεις-βέλους-arrow-functions)
+  1. [Κλάσεις & Κατασκευαστές (Classes & Constructors)](#κλάσεις--κατασκευαστές-classes--constructors)
+  1. [Ενότητες (Modules)](#ενότητες-modules)
+  1. [Επαναλήπτες & Γενικευτές (Iterators & Generators)](#επαναλήπτες--γενικευτές-iterators--generators)
+  1. [Ιδιότητες (Properties)](#ιδιότητες-properties)
+  1. [Μεταβλήτές (Variables)](#μεταβλητές-variables)
+  1. [Ανύψωση (Hoisting)](#ανύψωση-hoisting)
+  1. [Τελεστές Σύγκρισης & Ισότητα (Comparison Operators & Equality)](#τελεστές-σύγκρισης--ισότητα-comparison-operators--equality)
+  1. [Μπλοκ (Blocks)](#μπλοκ-blocks)
+  1. [Δηλώσεις Ελέγχου (Control Statements)](#δηλώσεις-ελέγχου-control-statements)
+  1. [Σχόλια (Comments)](#σχόλια-comments)
+  1. [Κενός Χώρος (Whitespace)](#κενός-χώρος-whitespace)
+  1. [Κόμματα (Commas)](#κόμματα-commas)
+  1. [Ερωτηματικά (Semicolons)](#ερωτηματικά-semicolons)
+  1. [Casting Τύπων & Καταναγκασμός (Type Casting & Coercion)](#casting-τύπων--εξαναγκασμός-type-casting--coercion)
+  1. [Συμβάσεις Ονομασίας (Naming Conventions)](#συμβάσεις-ονομασίας-naming-conventions)
+  1. [Στοιχεία Πρόσβασης (Accessors)](#στοιχεία-πρόσβασης-accessors)
+  1. [Γεγονότα (Events)](#γεγονότα-events)
   1. [jQuery](#jquery)
-  1. [ECMAScript 5 Compatibility](#ecmascript-5-compatibility)
-  1. [ECMAScript 6+ (ES 2015+) Styles](#ecmascript-6-es-2015-styles)
-  1. [Αρχική Βιβλιοθήκη](#standard-library) (Standard Library)
-  1. [Δοκιμές](#testing) (Testing)
-  1. [Απόδοση](#performance) (Performance)
-  1. [Πηγές](#resources)
-  1. [Στα Άγρια](#in-the-wild)
-  1. [Μετάφραση](#translation)
-  1. [Ο Οδηγός του Αισθητικού Οδηγού της JavaScript](#the-javascript-style-guide-guide)
-  1. [Συνομιλήστε Μαζί Μας Σχετικά Με Τη JavaScript](#chat-with-us-about-javascript)
-  1. [Συνεισφέροντες](#contributors)
-  1. [Άδεια](#license)
-  1. [Τροπολογίες](#amendments)
+  1. [Συμβατότητα ECMAScript 5](#συμβατότητα-ecmascript-5)
+  1. [Στυλ ECMAScript 6+ (ES 2015+)](#στυλ-ecmascript-6-es-2015)
+  1. [Αρχική Βιβλιοθήκη (Standard Library)](#τυπική-βιβλιοθήκη-standard-library)
+  1. [Δοκιμές (Testing)](#δοκιμές-testing)
+  1. [Απόδοση (Performance)](#απόδοση-performance)
+  1. [Πηγές](#πηγές)
+  1. [Στα Άγρια](#στα-άγρια)
+  1. [Μετάφραση](#μετάφραση)
+  1. [Ο Οδηγός του Αισθητικού Οδηγού της JavaScript](#ο-οδηγός-του-αισθητικού-οδηγού-της-javascript)
+  1. [Συνομιλήστε Μαζί Μας Σχετικά Με Τη JavaScript](#συνομιλήστε-μαζί-μας-σχετικά-με-τη-javascript)
+  1. [Συνεισφέροντες](#συνεισφέροντες)
+  1. [Άδεια](#άδεια)
+  1. [Τροπολογίες](#τροπολογίες)
 
 ## Tύποι (Types)
 
@@ -2337,7 +2337,7 @@
 
 **[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
-## Comments
+## Σχόλια (Comments)
 
   <a name="comments--multiline"></a><a name="17.1"></a>
   - [18.1](#comments--multiline) Χρησιμοποιήστε `/** ... */` για σχόλια πολλαπλών γραμμών.
@@ -2478,7 +2478,7 @@
 
 **[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
-## Whitespace
+## Κενός Χώρος (Whitespace)
 
   <a name="whitespace--spaces"></a><a name="18.1"></a>
   - [19.1](#whitespace--spaces) Χρησιμοποιήστε χαρακτήρες διαστήματος (soft tabs) σε 2 κενά. eslint: [`indent`](https://eslint.org/docs/rules/indent)
@@ -2977,7 +2977,7 @@
 
 **[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
-## Commas
+## Κόμματα (Commas)
 
   <a name="commas--leading-trailing"></a><a name="19.1"></a>
   - [20.1](#commas--leading-trailing) Προπορευόμενα κόμματα: **Όχι.** eslint: [`comma-style`](https://eslint.org/docs/rules/comma-style)
@@ -3112,47 +3112,46 @@
 
 **[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
-## Semicolons
+## Ερωτηματικά (Semicolons)
+<a name="semicolons--required"></a><a name="20.1"></a>
+  - [21.1](#semicolons--required) **Ναι.** eslint: [`semi`](https://eslint.org/docs/rules/semi)
 
-  <a name="semicolons--required"></a><a name="20.1"></a>
-  - [21.1](#semicolons--required) **Yup.** eslint: [`semi`](https://eslint.org/docs/rules/semi)
-
-    > Why? When JavaScript encounters a line break without a semicolon, it uses a set of rules called [Automatic Semicolon Insertion](https://tc39.github.io/ecma262/#sec-automatic-semicolon-insertion) to determine whether it should regard that line break as the end of a statement, and (as the name implies) place a semicolon into your code before the line break if it thinks so. ASI contains a few eccentric behaviors, though, and your code will break if JavaScript misinterprets your line break. These rules will become more complicated as new features become a part of JavaScript. Explicitly terminating your statements and configuring your linter to catch missing semicolons will help prevent you from encountering issues.
+    > Γιατί; Όταν η JavaScript συναντά μια αλλαγή γραμμής χωρίς ερωτηματικό, χρησιμοποιεί ένα σύνολο κανόνων που ονομάζεται [Αυτόματη εισαγωγή ερωτηματικών](https://tc39.github.io/ecma262/#sec-automatic-semicolon-insertion) για να προσδιορίσει εάν θα πρέπει να θεωρήσει αυτή τη διακοπή γραμμής ως το τέλος μιας δήλωσης και (όπως υποδηλώνει το όνομα) να τοποθετήσει ένα ερωτηματικό στο κωδικός πριν από τη διακοπή της γραμμής, αν το πιστεύει. Ωστόσο, το ASI περιέχει μερικές εκκεντρικές συμπεριφορές και ο κώδικάς σας θα σπάσει εάν η JavaScript παρερμηνεύσει την αλλαγή γραμμής σας. Αυτοί οι κανόνες θα γίνουν πιο περίπλοκοι καθώς οι νέες δυνατότητες γίνονται μέρος της JavaScript. Ο ρητός τερματισμός των δηλώσεών σας και η ρύθμιση παραμέτρων του λιναριού σας ώστε να συλλέγει ερωτηματικά που λείπουν θα σας βοηθήσει να μην αντιμετωπίσετε προβλήματα.
 
     ```javascript
-    // bad - raises exception
+    // κακό - εγείρει εξαίρεση
     const luke = {}
     const leia = {}
     [luke, leia].forEach((jedi) => jedi.father = 'vader')
 
-    // bad - raises exception
+    // κακό - εγείρει εξαίρεση
     const reaction = "No! That’s impossible!"
     (async function meanwhileOnTheFalcon() {
       // handle `leia`, `lando`, `chewie`, `r2`, `c3p0`
       // ...
     }())
 
-    // bad - returns `undefined` instead of the value on the next line - always happens when `return` is on a line by itself because of ASI!
+    // κακό - επιστρέφει "undefined" αντί για την τιμή στην επόμενη γραμμή - συμβαίνει πάντα όταν η "return" βρίσκεται σε μια γραμμή από μόνη της λόγω ASI!
     function foo() {
       return
         'search your feelings, you know it to be foo'
     }
 
-    // good
+    // καλό
     const luke = {};
     const leia = {};
     [luke, leia].forEach((jedi) => {
       jedi.father = 'vader';
     });
 
-    // good
+    // καλό
     const reaction = 'No! That’s impossible!';
     (async function meanwhileOnTheFalcon() {
       // handle `leia`, `lando`, `chewie`, `r2`, `c3p0`
       // ...
     }());
 
-    // good
+    // καλό
     function foo() {
       return 'search your feelings, you know it to be foo';
     }
@@ -3162,62 +3161,62 @@
 
 **[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
-## Type Casting & Coercion
+## Casting Τύπων & Εξαναγκασμός (Type Casting & Coercion)
 
   <a name="coercion--explicit"></a><a name="21.1"></a>
-  - [22.1](#coercion--explicit) Perform type coercion at the beginning of the statement.
+  - [22.1](#coercion--explicit) Εκτελέστε εξαναγκασμό τύπου στην αρχή της δήλωσης.
 
   <a name="coercion--strings"></a><a name="21.2"></a>
-  - [22.2](#coercion--strings) Strings: eslint: [`no-new-wrappers`](https://eslint.org/docs/rules/no-new-wrappers)
+  - [22.2](#coercion--strings) Συμβολσειρές: eslint: [`no-new-wrappers`](https://eslint.org/docs/rules/no-new-wrappers)
 
     ```javascript
     // => this.reviewScore = 9;
 
-    // bad
-    const totalScore = new String(this.reviewScore); // typeof totalScore is "object" not "string"
+    // κακό
+    const totalScore = new String(this.reviewScore); // ο τύπος totalScore είναι "object" όχι "string"
 
-    // bad
-    const totalScore = this.reviewScore + ''; // invokes this.reviewScore.valueOf()
+    // κακό
+    const totalScore = this.reviewScore + ''; // καλεί το this.reviewScore.valueOf()
 
-    // bad
-    const totalScore = this.reviewScore.toString(); // isn’t guaranteed to return a string
+    // κακό
+    const totalScore = this.reviewScore.toString(); // δεν είναι εγγυημένο ότι θα επιστρέψει string
 
-    // good
+    // καλό
     const totalScore = String(this.reviewScore);
     ```
 
   <a name="coercion--numbers"></a><a name="21.3"></a>
-  - [22.3](#coercion--numbers) Numbers: Use `Number` for type casting and `parseInt` always with a radix for parsing strings. eslint: [`radix`](https://eslint.org/docs/rules/radix) [`no-new-wrappers`](https://eslint.org/docs/rules/no-new-wrappers)
+  - [22.3](#coercion--numbers) Αριθμοί: Χρησιμοποιήστε το `Number` για casting τύπου και το `parseInt` πάντα με μια ρίζα για την ανάλυση συμβολοσειρών. eslint: [`radix`](https://eslint.org/docs/rules/radix) [`no-new-wrappers`](https://eslint.org/docs/rules/no-new-wrappers)
 
-    > Why? The `parseInt` function produces an integer value dictated by interpretation of the contents of the string argument according to the specified radix. Leading whitespace in string is ignored. If radix is `undefined` or `0`, it is assumed to be `10` except when the number begins with the character pairs `0x` or `0X`, in which case a radix of 16 is assumed. This differs from ECMAScript 3, which merely discouraged (but allowed) octal interpretation. Many implementations have not adopted this behavior as of 2013. And, because older browsers must be supported, always specify a radix.
+    > Γιατί; Η συνάρτηση `parseInt` παράγει μια ακέραια τιμή που υπαγορεύεται από την ερμηνεία των περιεχομένων του ορίσματος συμβολοσειράς σύμφωνα με την καθορισμένη ρίζα. Το κύριο κενό διάστημα στη συμβολοσειρά αγνοείται. Εάν η ρίζα είναι `undefined` ή `0`, θεωρείται ότι είναι `10`, εκτός από την περίπτωση που ο αριθμός ξεκινά με τα ζεύγη χαρακτήρων `0x` ή `0X`, οπότε θεωρείται η ρίζα 16. Αυτό διαφέρει από το ECMAScript 3, το οποίο απλώς αποθάρρυνε (αλλά επέτρεπε) την οκταδική ερμηνεία. Πολλές υλοποιήσεις δεν έχουν υιοθετήσει αυτήν τη συμπεριφορά από το 2013. Και, επειδή πρέπει να υποστηρίζονται παλαιότερα προγράμματα περιήγησης, να προσδιορίζετε πάντα μια βάση.
 
     ```javascript
     const inputValue = '4';
 
-    // bad
+    // κακό
     const val = new Number(inputValue);
 
-    // bad
+    // κακό
     const val = +inputValue;
 
-    // bad
+    // κακό
     const val = inputValue >> 0;
 
-    // bad
+    // κακό
     const val = parseInt(inputValue);
 
-    // good
+    // καλό
     const val = Number(inputValue);
 
-    // good
+    // καλό
     const val = parseInt(inputValue, 10);
     ```
 
   <a name="coercion--comment-deviations"></a><a name="21.4"></a>
-  - [22.4](#coercion--comment-deviations) If for whatever reason you are doing something wild and `parseInt` is your bottleneck and need to use Bitshift for [performance reasons](https://web.archive.org/web/20200414205431/https://jsperf.com/coercion-vs-casting/3), leave a comment explaining why and what you’re doing.
+  - [22.4](#coercion--comment-deviations) Εάν για οποιονδήποτε λόγο κάνετε κάτι άγριο και το `parseInt` είναι το σημείο συμφόρησής σας και πρέπει να χρησιμοποιήσετε το Bitshift για [λόγους απόδοσης](https://web.archive.org/web/20200414205431/https://jsperf.com/coercion-vs-casting/3), αφήστε ένα σχόλιο εξηγώντας γιατί και τι κάνετε.
 
     ```javascript
-    // good
+    // καλό
     /**
      * parseInt was the reason my code was slow.
      * Bitshifting the String to coerce it to a
@@ -3227,7 +3226,7 @@
     ```
 
   <a name="coercion--bitwise"></a><a name="21.5"></a>
-  - [22.5](#coercion--bitwise) **Note:** Be careful when using bitshift operations. Numbers are represented as [64-bit values](https://es5.github.io/#x4.3.19), but bitshift operations always return a 32-bit integer ([source](https://es5.github.io/#x11.7)). Bitshift can lead to unexpected behavior for integer values larger than 32 bits. [Discussion](https://github.com/airbnb/javascript/issues/109). Largest signed 32-bit Int is 2,147,483,647:
+  - [22.5](#coercion--bitwise) **Σημείωση:** Να είστε προσεκτικοί όταν χρησιμοποιείτε λειτουργίες bitshift. Οι αριθμοί αντιπροσωπεύονται ως [τιμές 64-bit](https://es5.github.io/#x4.3.19), αλλά οι λειτουργίες bitshift επιστρέφουν πάντα έναν ακέραιο αριθμό 32-bit ([πηγή](https://es5.github.io/#x11.7)). Το bitshift μπορεί να οδηγήσει σε απροσδόκητη συμπεριφορά για ακέραιες τιμές μεγαλύτερες από 32 bit. [Συζητήστε](https://github.com/airbnb/javascript/issues/109). Ο μεγαλύτερος υπογεγραμμένος ακέραιος 32-bit είναι 2,147,483,647:
 
     ```javascript
     2147483647 >> 0; // => 2147483647
@@ -3241,10 +3240,10 @@
     ```javascript
     const age = 0;
 
-    // bad
+    // κακό
     const hasAge = new Boolean(age);
 
-    // good
+    // καλό
     const hasAge = Boolean(age);
 
     // best
@@ -3253,42 +3252,42 @@
 
 **[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
-## Naming Conventions
+## Συμβάσεις Ονομασίας (Naming Conventions)
 
   <a name="naming--descriptive"></a><a name="22.1"></a>
-  - [23.1](#naming--descriptive) Avoid single letter names. Be descriptive with your naming. eslint: [`id-length`](https://eslint.org/docs/rules/id-length)
+  - [23.1](#naming--descriptive) Αποφύγετε τα ονόματα με ένα γράμμα. Να είστε περιγραφικοί με την ονομασία σας. eslint: [`id-length`](https://eslint.org/docs/rules/id-length)
 
     ```javascript
-    // bad
+    // κακό
     function q() {
       // ...
     }
 
-    // good
+    // καλό
     function query() {
       // ...
     }
     ```
 
   <a name="naming--camelCase"></a><a name="22.2"></a>
-  - [23.2](#naming--camelCase) Use camelCase when naming objects, functions, and instances. eslint: [`camelcase`](https://eslint.org/docs/rules/camelcase)
+  - [23.2](#naming--camelCase) Χρησιμοποιήστε camelCase όταν ονομάζετε αντικείμενα, συναρτήσεις και παρουσίες. eslint: [`camelcase`](https://eslint.org/docs/rules/camelcase)
 
     ```javascript
-    // bad
+    // κακό
     const OBJEcttsssss = {};
     const this_is_my_object = {};
     function c() {}
 
-    // good
+    // καλό
     const thisIsMyObject = {};
     function thisIsMyFunction() {}
     ```
 
   <a name="naming--PascalCase"></a><a name="22.3"></a>
-  - [23.3](#naming--PascalCase) Use PascalCase only when naming constructors or classes. eslint: [`new-cap`](https://eslint.org/docs/rules/new-cap)
+  - [23.3](#naming--PascalCase) Χρησιμοποιήστε PascalCase μόνο όταν ονομάζετε κατασκευαστές ή κλάσεις. eslint: [`new-cap`](https://eslint.org/docs/rules/new-cap)
 
     ```javascript
-    // bad
+    // κακό
     function user(options) {
       this.name = options.name;
     }
@@ -3297,7 +3296,7 @@
       name: 'nope',
     });
 
-    // good
+    // καλό
     class User {
       constructor(options) {
         this.name = options.name;
@@ -3310,30 +3309,30 @@
     ```
 
   <a name="naming--leading-underscore"></a><a name="22.4"></a>
-  - [23.4](#naming--leading-underscore) Do not use trailing or leading underscores. eslint: [`no-underscore-dangle`](https://eslint.org/docs/rules/no-underscore-dangle)
+  - [23.4](#naming--leading-underscore) Μη χρησιμοποιείτε υστερούντες ή προπορευόμενες υπογράμμιση. eslint: [`no-underscore-dangle`](https://eslint.org/docs/rules/no-underscore-dangle)
 
-    > Why? JavaScript does not have the concept of privacy in terms of properties or methods. Although a leading underscore is a common convention to mean “private”, in fact, these properties are fully public, and as such, are part of your public API contract. This convention might lead developers to wrongly think that a change won’t count as breaking, or that tests aren’t needed. tl;dr: if you want something to be “private”, it must not be observably present.
+    > Γιατί; Η JavaScript δεν έχει την έννοια του απορρήτου όσον αφορά τις ιδιότητες ή τις μεθόδους. Αν και η κύρια υπογράμμιση είναι μια κοινή σύμβαση που σημαίνει “ιδιωτικό”, στην πραγματικότητα, αυτές οι ιδιότητες είναι πλήρως δημόσιες και ως εκ τούτου αποτελούν μέρος της δημόσιας σύμβασης API σας. Αυτή η σύμβαση μπορεί να οδηγήσει τους προγραμματιστές να πιστεύουν λανθασμένα ότι μια αλλαγή δεν θα λογαριάσει ως παραβίαση ή ότι δεν χρειάζονται δοκιμές. tl;dr: εάν θέλετε κάτι να είναι “ιδιωτικό”, δεν πρέπει να είναι εμφανώς παρόν.
 
     ```javascript
-    // bad
+    // κακό
     this.__firstName__ = 'Panda';
     this.firstName_ = 'Panda';
     this._firstName = 'Panda';
 
-    // good
+    // καλό
     this.firstName = 'Panda';
 
-    // good, in environments where WeakMaps are available
+    // καλό, in environments where WeakMaps are available
     // see https://kangax.github.io/compat-table/es6/#test-WeakMap
     const firstNames = new WeakMap();
     firstNames.set(this, 'Panda');
     ```
 
   <a name="naming--self-this"></a><a name="22.5"></a>
-  - [23.5](#naming--self-this) Don’t save references to `this`. Use arrow functions or [Function#bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind).
+  - [23.5](#naming--self-this) Μην αποθηκεύετε αναφορές στη λέξη `this`. Χρησιμοποιήστε συναρτήσεις βέλους ή [Function#bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind).
 
     ```javascript
-    // bad
+    // κακό
     function foo() {
       const self = this;
       return function () {
@@ -3341,7 +3340,7 @@
       };
     }
 
-    // bad
+    // κακό
     function foo() {
       const that = this;
       return function () {
@@ -3349,7 +3348,7 @@
       };
     }
 
-    // good
+    // καλό
     function foo() {
       return () => {
         console.log(this);
@@ -3358,43 +3357,43 @@
     ```
 
   <a name="naming--filename-matches-export"></a><a name="22.6"></a>
-  - [23.6](#naming--filename-matches-export) A base filename should exactly match the name of its default export.
+  - [23.6](#naming--filename-matches-export) Ένα όνομα αρχείου βάσης πρέπει να ταιριάζει ακριβώς με το όνομα της προεπιλεγμένης εξαγωγής του.
 
     ```javascript
-    // file 1 contents
+    // περιεχόμενα αρχείου 1
     class CheckBox {
       // ...
     }
     export default CheckBox;
 
-    // file 2 contents
+    // περιεχόμενα αρχείου 2
     export default function fortyTwo() { return 42; }
 
-    // file 3 contents
+    // περιεχόμενα αρχείου 3
     export default function insideDirectory() {}
 
-    // in some other file
-    // bad
+    // σε άλλον φάκελο
+    // κακό
     import CheckBox from './checkBox'; // PascalCase import/export, camelCase filename
     import FortyTwo from './FortyTwo'; // PascalCase import/filename, camelCase export
     import InsideDirectory from './InsideDirectory'; // PascalCase import/filename, camelCase export
 
-    // bad
+    // κακό
     import CheckBox from './check_box'; // PascalCase import/export, snake_case filename
     import forty_two from './forty_two'; // snake_case import/filename, camelCase export
     import inside_directory from './inside_directory'; // snake_case import, camelCase export
     import index from './inside_directory/index'; // requiring the index file explicitly
     import insideDirectory from './insideDirectory/index'; // requiring the index file explicitly
 
-    // good
+    // καλό
     import CheckBox from './CheckBox'; // PascalCase export/import/filename
     import fortyTwo from './fortyTwo'; // camelCase export/import/filename
     import insideDirectory from './insideDirectory'; // camelCase export/import/directory name/implicit "index"
-    // ^ supports both insideDirectory.js and insideDirectory/index.js
+    // ^ υποστηρίζει και το insideDirectory.js και το insideDirectory/index.js
     ```
 
   <a name="naming--camelCase-default-export"></a><a name="22.7"></a>
-  - [23.7](#naming--camelCase-default-export) Use camelCase when you export-default a function. Your filename should be identical to your function’s name.
+  - [23.7](#naming--camelCase-default-export) Χρησιμοποιήστε camelCase κατά την εξαγωγή-προεπιλογή μιας συνάρτησης. Το όνομα του αρχείου σας πρέπει να είναι πανομοιότυπο με το όνομα της συνάρτησής σας.
 
     ```javascript
     function makeStyleGuide() {
@@ -3405,7 +3404,7 @@
     ```
 
   <a name="naming--PascalCase-singleton"></a><a name="22.8"></a>
-  - [23.8](#naming--PascalCase-singleton) Use PascalCase when you export a constructor / class / singleton / function library / bare object.
+  - [23.8](#naming--PascalCase-singleton) Χρησιμοποιήστε PascalCase όταν εξάγετε έναν κατασκευαστή / κλάση / singleton / βιβλιοθήκη συναρτήσεων / άδειο αντικείμενο.
 
     ```javascript
     const AirbnbStyleGuide = {
@@ -3417,9 +3416,9 @@
     ```
 
   <a name="naming--Acronyms-and-Initialisms"></a>
-  - [23.9](#naming--Acronyms-and-Initialisms) Acronyms and initialisms should always be all uppercased, or all lowercased.
+  - [23.9](#naming--Acronyms-and-Initialisms) Τα ακρωνύμια και οι αρχικισμοί πρέπει πάντα να είναι όλα κεφαλαία ή όλα πεζά.
 
-    > Why? Names are for readability, not to appease a computer algorithm.
+    > Γιατί; Τα ονόματα είναι για αναγνωσιμότητα, όχι για να κατευνάσουν έναν αλγόριθμο υπολογιστή.
 
     ```javascript
     // bad
@@ -3453,38 +3452,38 @@
     ```
 
   <a name="naming--uppercase"></a>
-  - [23.10](#naming--uppercase) You may optionally uppercase a constant only if it (1) is exported, (2) is a `const` (it can not be reassigned), and (3) the programmer can trust it (and its nested properties) to never change.
-
-    > Why? This is an additional tool to assist in situations where the programmer would be unsure if a variable might ever change. UPPERCASE_VARIABLES are letting the programmer know that they can trust the variable (and its properties) not to change.
-    - What about all `const` variables? - This is unnecessary, so uppercasing should not be used for constants within a file. It should be used for exported constants however.
-    - What about exported objects? - Uppercase at the top level of export (e.g. `EXPORTED_OBJECT.key`) and maintain that all nested properties do not change.
+  - [23.10](#naming--uppercase) Μπορείτε προαιρετικά να γράψετε κεφαλαία μια σταθερά μόνο εάν (1) εξαχθεί, (2) είναι `const` (δεν μπορεί να ανατεθεί ξανά) και (3) ο προγραμματιστής μπορεί να εμπιστευτεί αυτό (και οι ένθετες ιδιότητές του) να μην αλλάξουν ποτέ.
+  
+    > Γιατί; Αυτό είναι ένα πρόσθετο εργαλείο για να βοηθήσει σε καταστάσεις όπου ο προγραμματιστής δεν είναι σίγουρος εάν μια μεταβλητή μπορεί να αλλάξει ποτέ. Οι UPPERCASE_VARIABLES ενημερώνουν τον προγραμματιστή ότι μπορεί να εμπιστευτεί τη μεταβλητή (και τις ιδιότητές της) να μην αλλάξει.
+    - Τι γίνεται με όλες τις μεταβλητές `const`; - Αυτό δεν είναι απαραίτητο, επομένως δεν πρέπει να χρησιμοποιείται κεφαλαία για σταθερές σε ένα αρχείο. Ωστόσο, θα πρέπει να χρησιμοποιείται για εξαγόμενες σταθερές.
+    - Τι γίνεται με τα εξαγόμενα αντικείμενα; - Κεφαλαία γράμματα στο ανώτερο επίπεδο εξαγωγής (π.χ. `EXPORTED_OBJECT.key`) και διατηρήστε ότι όλες οι ένθετες ιδιότητες δεν αλλάζουν.
 
     ```javascript
-    // bad
+    // κακό
     const PRIVATE_VARIABLE = 'should not be unnecessarily uppercased within a file';
 
-    // bad
+    // κακό
     export const THING_TO_BE_CHANGED = 'should obviously not be uppercased';
 
-    // bad
+    // κακό
     export let REASSIGNABLE_VARIABLE = 'do not use let with uppercase variables';
 
     // ---
 
-    // allowed but does not supply semantic value
+    // επιτρέπεται αλλά δεν παρέχει σημασιολογική (semantic) αξία
     export const apiKey = 'SOMEKEY';
 
-    // better in most cases
+    // καλύτερο στις περισσότερες περιπτώσεις
     export const API_KEY = 'SOMEKEY';
 
     // ---
 
-    // bad - unnecessarily uppercases key while adding no semantic value
+    // κακό - άσκοπα κεφαλαία γράμματα χωρίς να προσθέτει καμία σημασιολογική αξία
     export const MAPPING = {
       KEY: 'value'
     };
 
-    // good
+    // καλό
     export const MAPPING = {
       key: 'value',
     };
@@ -3492,16 +3491,16 @@
 
 **[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
-## Accessors
+## Στοιχεία Πρόσβασης (Accessors)
 
   <a name="accessors--not-required"></a><a name="23.1"></a>
-  - [24.1](#accessors--not-required) Accessor functions for properties are not required.
+  - [24.1](#accessors--not-required) Δεν απαιτούνται συναρτήσεις πρόσβασης για ιδιότητες.
 
   <a name="accessors--no-getters-setters"></a><a name="23.2"></a>
-  - [24.2](#accessors--no-getters-setters) Do not use JavaScript getters/setters as they cause unexpected side effects and are harder to test, maintain, and reason about. Instead, if you do make accessor functions, use `getVal()` and `setVal('hello')`.
+  - [24.2](#accessors--no-getters-setters) Μην χρησιμοποιείτε τους getters/setters JavaScript, καθώς προκαλούν απροσδόκητες παρενέργειες και είναι πιο δύσκολο να δοκιμαστούν, να διατηρηθούν και να αιτιολογηθούν. Αντίθετα, εάν κάνετε συναρτήσεις πρόσβασης, χρησιμοποιήστε τα `getVal()` και `setVal('hello')`.
 
     ```javascript
-    // bad
+    // κακό
     class Dragon {
       get age() {
         // ...
@@ -3512,7 +3511,7 @@
       }
     }
 
-    // good
+    // καλό
     class Dragon {
       getAge() {
         // ...
@@ -3525,22 +3524,22 @@
     ```
 
   <a name="accessors--boolean-prefix"></a><a name="23.3"></a>
-  - [24.3](#accessors--boolean-prefix) If the property/method is a `boolean`, use `isVal()` or `hasVal()`.
+  - [24.3](#accessors--boolean-prefix) Εάν η ιδιότητα/μέθοδος είναι `boolean`, χρησιμοποιήστε `isVal()` ή `hasVal()`.
 
     ```javascript
-    // bad
+    // κακό
     if (!dragon.age()) {
       return false;
     }
 
-    // good
+    // καλό
     if (!dragon.hasAge()) {
       return false;
     }
     ```
 
   <a name="accessors--consistent"></a><a name="23.4"></a>
-  - [24.4](#accessors--consistent) It’s okay to create `get()` and `set()` functions, but be consistent.
+  - [24.4](#accessors--consistent) Είναι εντάξει να δημιουργείτε συναρτήσεις `get()` και `set()`, αλλά να είστε συνεπείς.
 
     ```javascript
     class Jedi {
@@ -3561,13 +3560,13 @@
 
 **[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
-## Events
+## Γεγονότα (Events)
 
   <a name="events--hash"></a><a name="24.1"></a>
-  - [25.1](#events--hash) When attaching data payloads to events (whether DOM events or something more proprietary like Backbone events), pass an object literal (also known as a "hash") instead of a raw value. This allows a subsequent contributor to add more data to the event payload without finding and updating every handler for the event. For example, instead of:
+  - [25.1](#events--hash) Όταν επισυνάπτετε ωφέλιμα φορτία δεδομένων (data payload) σε γεγονότα (είτε γεγονότα DOM είτε κάτι πιο αποκλειστικό όπως γεγονότα Backbone), μεταβιβάστε ένα κυριολεκτικό αντικείμενο (γνωστό και ως "hash") αντί για μια μη επεξεργασμένη τιμή. Αυτό επιτρέπει σε έναν επόμενο συνεισφέροντα να προσθέσει περισσότερα δεδομένα στο ωφέλιμο φορτίο συμβάντος χωρίς να βρει και να ενημερώσει κάθε χειριστή για το γεγονός. Για παράδειγμα, αντί για:
 
     ```javascript
-    // bad
+    // κακό
     $(this).trigger('listingUpdated', listing.id);
 
     // ...
@@ -3577,10 +3576,10 @@
     });
     ```
 
-    prefer:
+    προτιμήστε:
 
     ```javascript
-    // good
+    // καλό
     $(this).trigger('listingUpdated', { listingID: listing.id });
 
     // ...
@@ -3595,24 +3594,24 @@
 ## jQuery
 
   <a name="jquery--dollar-prefix"></a><a name="25.1"></a>
-  - [26.1](#jquery--dollar-prefix) Prefix jQuery object variables with a `$`.
+  - [26.1](#jquery--dollar-prefix) Βάλτε πρόθεμα σε μεταβλητών αντικειμένου jQuery με `$`.
 
     ```javascript
-    // bad
+    // κακό
     const sidebar = $('.sidebar');
 
-    // good
+    // καλό
     const $sidebar = $('.sidebar');
 
-    // good
+    // καλό
     const $sidebarBtn = $('.sidebar-btn');
     ```
 
   <a name="jquery--cache"></a><a name="25.2"></a>
-  - [26.2](#jquery--cache) Cache jQuery lookups.
+  - [26.2](#jquery--cache) Πλαισιώστε σε μνήμη cache τις αναζητήσεις (lookups) jQuery.
 
     ```javascript
-    // bad
+    // κακό
     function setSidebar() {
       $('.sidebar').hide();
 
@@ -3623,7 +3622,7 @@
       });
     }
 
-    // good
+    // καλό
     function setSidebar() {
       const $sidebar = $('.sidebar');
       $sidebar.hide();
@@ -3637,57 +3636,57 @@
     ```
 
   <a name="jquery--queries"></a><a name="25.3"></a>
-  - [26.3](#jquery--queries) For DOM queries use Cascading `$('.sidebar ul')` or parent > child `$('.sidebar > ul')`. [jsPerf](https://web.archive.org/web/20200414183810/https://jsperf.com/jquery-find-vs-context-sel/16)
+  - [26.3](#jquery--queries) Για DOM queries χρησιμοποιήστε Cascading `$('.sidebar ul')` ή parent > child `$('.sidebar > ul')`. [jsPerf](https://web.archive.org/web/20200414183810/https://jsperf.com/jquery-find-vs-context-sel/16)
 
   <a name="jquery--find"></a><a name="25.4"></a>
-  - [26.4](#jquery--find) Use `find` with scoped jQuery object queries.
+  - [26.4](#jquery--find) Use `find` with queries αντικειμένων jQuery με εύρος.
 
     ```javascript
-    // bad
+    // κακό
     $('ul', '.sidebar').hide();
 
-    // bad
+    // κακό
     $('.sidebar').find('ul').hide();
 
-    // good
+    // καλό
     $('.sidebar ul').hide();
 
-    // good
+    // καλό
     $('.sidebar > ul').hide();
 
-    // good
+    // καλό
     $sidebar.find('ul').hide();
     ```
 
 **[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
-## ECMAScript 5 Compatibility
+## Συμβατότητα ECMAScript 5
 
   <a name="es5-compat--kangax"></a><a name="26.1"></a>
-  - [27.1](#es5-compat--kangax) Refer to [Kangax](https://twitter.com/kangax/)’s ES5 [compatibility table](https://kangax.github.io/es5-compat-table/).
+  - [27.1](#es5-compat--kangax) Ανατρέξτε στον [πίνακα συμβατότητας](https://kangax.github.io/es5-compat-table/) ES5 του [Kangax](https://twitter.com/kangax/).
 
 **[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
 <a name="ecmascript-6-styles"></a>
-## ECMAScript 6+ (ES 2015+) Styles
+## Στυλ ECMAScript 6+ (ES 2015+)
 
   <a name="es6-styles"></a><a name="27.1"></a>
-  - [28.1](#es6-styles) This is a collection of links to the various ES6+ features.
+  - [28.1](#es6-styles) Αυτή είναι μια συλλογή συνδέσμων στα διάφορα χαρακτηριστικά της ES6+.
 
-1. [Συναρτήσεις Βέλους](#συναρτήσεις-βέλους-arrow-functions) (Arrow Functions)
-1. [Κλάσεις & Κατασκευαστές](#κλάσεις--κατασκευαστές-classes--constructors) (Classes & Constructors)
-1. [Object Shorthand](#es6-object-shorthand)
-1. [Object Concise](#es6-object-concise)
-1. [Object Computed Properties](#es6-computed-properties)
-1. [Template Strings](#es6-template-literals)
-1. [Αποδόμηση](#αποδόμηση-destructuring) (Destructuring)
-1. [Προεπιλεγμένες Παράμετροι](#es6-default-parameters) (Default Parameters)
-1. [Σύνταξη Rest](#es6-rest) (Rest Syntax)
-1. [](#es6-array-spreads) (Array Spreads)
+1. [Συναρτήσεις Βέλους (Arrow Functions)](#συναρτήσεις-βέλους-arrow-functions)
+1. [Κλάσεις & Κατασκευαστές (Classes & Constructors)](#κλάσεις--κατασκευαστές-classes--constructors)
+1. [Συντομογραφία Αντικειμένου (Object Shorthand)](#es6-object-shorthand)
+1. [Σύνοψη Αντικειμένου (Object Concise)](#es6-object-concise)
+1. [Υπολογισμένες Ιδιότητες Αντικειμένου (Object Computed Properties)](#es6-computed-properties)
+1. [Συμβολοσειρές Πρότυπα (Template Strings)](#es6-template-literals)
+1. [Αποδόμηση (Destructuring)](#αποδόμηση-destructuring)
+1. [Προεπιλεγμένες Παράμετροι (Default Parameters)](#es6-default-parameters)
+1. [Σύνταξη Rest (Rest Syntax)](#es6-rest)
+1. [Σύνταξη Spread Πινάκων (Array Spreads)](#es6-array-spreads)
 1. [Let και Const](#αναφορές)
-1. [Exponentiation Operator](#es2016-properties--exponentiation-operator)
-1. [Iterators and Generators](#iterators-and-generators)
-1. [Ενότητες](#ενότητες-modules) (Modules)
+1. [Τελεστής Εκθέσεως (Exponentiation Operator)](#es2016-properties--exponentiation-operator)
+1. [Επαναλήπτες & Γενικευτές (Iterators & Generators)](#επαναλήπτες--γενικευτές-iterators--generators)
+1. [Ενότητες (Modules)](#ενότητες-modules)
 
   <a name="tc39-proposals"></a>
   - [28.2](#tc39-proposals) Μη χρησιμοποιείτε [TC39 proposals](https://github.com/tc39/proposals) τα οποία δεν έχουν φτάσει στην 3η φάση.
@@ -3696,50 +3695,50 @@
 
 **[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
-## Standard Library
+## Τυπική Βιβλιοθήκη (Standard Library)
 
-  The [Standard Library](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects)
-  contains utilities that are functionally broken but remain for legacy reasons.
+  Η [Τυπική Βιβλιοθήκη](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects)
+  περιέχει βοηθητικά προγράμματα που είναι λειτουργικά κατεστραμμένα αλλά παραμένουν για λόγους παλαιού τύπου.
 
   <a name="standard-library--isnan"></a>
-  - [29.1](#standard-library--isnan) Use `Number.isNaN` instead of global `isNaN`.
+  - [29.1](#standard-library--isnan) Χρησιμοποιήστε το `Number.isNaN` αντί για το καθολικό `isNaN`.
     eslint: [`no-restricted-globals`](https://eslint.org/docs/rules/no-restricted-globals)
 
-    > Why? The global `isNaN` coerces non-numbers to numbers, returning true for anything that coerces to NaN.
-    > If this behavior is desired, make it explicit.
+    > Γιατί; Το καθολικό `isNaN` εξαναγκάζει τους μη αριθμούς σε αριθμούς, επιστρέφοντας true για οτιδήποτε εξαναγκάζει σε NaN.
+    > Εάν αυτή η συμπεριφορά είναι επιθυμητή, κάντε τη σαφή.
 
     ```javascript
-    // bad
+    // κακό
     isNaN('1.2'); // false
     isNaN('1.2.3'); // true
 
-    // good
+    // καλό
     Number.isNaN('1.2.3'); // false
     Number.isNaN(Number('1.2.3')); // true
     ```
 
   <a name="standard-library--isfinite"></a>
-  - [29.2](#standard-library--isfinite) Use `Number.isFinite` instead of global `isFinite`.
+  - [29.2](#standard-library--isfinite) Χρησιμοποιήστε το `Number.isFinite` αντί για το καθολικό `isFinite`.
     eslint: [`no-restricted-globals`](https://eslint.org/docs/rules/no-restricted-globals)
 
-    > Why? The global `isFinite` coerces non-numbers to numbers, returning true for anything that coerces to a finite number.
-    > If this behavior is desired, make it explicit.
+    > Why? Το καθολικό `isFinite` επιστρέφοντας true για οτιδήποτε εξαναγκάζει σε έναν πεπερασμένο αριθμό.
+    > Εάν αυτή η συμπεριφορά είναι επιθυμητή, κάντε τη σαφή.
 
     ```javascript
-    // bad
+    // κακό
     isFinite('2e3'); // true
 
-    // good
+    // καλό
     Number.isFinite('2e3'); // false
     Number.isFinite(parseInt('2e3', 10)); // true
     ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
-## Testing
+## Δοκιμές (Testing)
 
   <a name="testing--yup"></a><a name="28.1"></a>
-  - [30.1](#testing--yup) **Yup.**
+  - [30.1](#testing--yup) **Ναι.**
 
     ```javascript
     function foo() {
@@ -3749,14 +3748,14 @@
 
   <a name="testing--for-real"></a><a name="28.2"></a>
   - [30.2](#testing--for-real) **Όχι, αλλά σοβαρά**:
-    - Whichever testing framework you use, you should be writing tests!
-    - Strive to write many small pure functions, and minimize where mutations occur.
-    - Be cautious about stubs and mocks - they can make your tests more brittle.
-    - We primarily use [`mocha`](https://www.npmjs.com/package/mocha) and [`jest`](https://www.npmjs.com/package/jest) at Airbnb. [`tape`](https://www.npmjs.com/package/tape) is also used occasionally for small, separate modules.
-    - 100% test coverage is a good goal to strive for, even if it’s not always practical to reach it.
-    - Whenever you fix a bug, *write a regression test*. A bug fixed without a regression test is almost certainly going to break again in the future.
+    - Όποιο πλαίσιο δοκιμών (testing framework) χρησιμοποιείτε, θα πρέπει να γράφετε δοκιμές!
+    - Προσπαθήστε να γράψετε πολλές μικρές καθαρές συναρτήσεις και ελαχιστοποιήστε τα σημεία όπου συμβαίνουν μεταλλάξεις.
+    - Να είστε προσεκτικοί με τα μέρη των δοκιμών (stubs) και τις προσομοιώσεις τους (mocks) - μπορεί να κάνουν τις δοκιμές σας πιο ευάλωτες.
+    - Χρησιμοποιούμε κυρίως [`mocha`](https://www.npmjs.com/package/mocha) και [`jest`](https://www.npmjs.com/package/jest) στην Airbnb. Το [`tape`](https://www.npmjs.com/package/tape) χρησιμοποιείται επιπλέον ενίοτε σε μικρές, χωριστές ενότητες.
+    - Η κάλυψη δοκιμών 100% είναι ένας ικανός στόχος που πρέπει να επιδιώξετε, ακόμα κι αν δεν είναι πάντα πρακτικό να τον πετύχετε.
+    - Κάθε φορά που διορθώνετε ένα σφάλμα, *γράψτε μια δοκιμή παλινδρόμησης (regression test)*. Ένα σφάλμα που διορθώθηκε χωρίς δοκιμή παλινδρόμησης είναι σχεδόν βέβαιο ότι θα σπάσει ξανά στο μέλλον.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
 ## Απόδοση (Performance)
 
@@ -3851,7 +3850,7 @@
   - [JavaScript Air](https://javascriptair.com/)
   - [JavaScript Jabber](https://devchat.tv/js-jabber/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
 ## Στα Άγρια
 
@@ -3947,40 +3946,41 @@
   - **Zillow**: [zillow/javascript](https://github.com/zillow/javascript)
   - **ZocDoc**: [ZocDoc/javascript](https://github.com/ZocDoc/javascript)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
 ## Μετάφραση
 
-  This style guide is also available in other languages:
+  Ο αισθητικός οδηγός είναι επίσης διαθέσιμος και σε άλλες γλώσσες:
 
-  - ![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png) **Brazilian Portuguese**: [armoucar/javascript-style-guide](https://github.com/armoucar/javascript-style-guide)
-  - ![bg](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Bulgaria.png) **Bulgarian**: [borislavvv/javascript](https://github.com/borislavvv/javascript)
-  - ![ca](https://raw.githubusercontent.com/fpmweb/javascript-style-guide/master/img/catala.png) **Catalan**: [fpmweb/javascript-style-guide](https://github.com/fpmweb/javascript-style-guide)
-  - ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Chinese (Simplified)**: [lin-123/javascript](https://github.com/lin-123/javascript)
-  - ![tw](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Taiwan.png) **Chinese (Traditional)**: [jigsawye/javascript](https://github.com/jigsawye/javascript)
-  - ![fr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/France.png) **French**: [nmussy/javascript-style-guide](https://github.com/nmussy/javascript-style-guide)
-  - ![de](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Germany.png) **German**: [timofurrer/javascript-style-guide](https://github.com/timofurrer/javascript-style-guide)
-  - ![it](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Italy.png) **Italian**: [sinkswim/javascript-style-guide](https://github.com/sinkswim/javascript-style-guide)
-  - ![jp](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Japan.png) **Japanese**: [mitsuruog/javascript-style-guide](https://github.com/mitsuruog/javascript-style-guide)
-  - ![kr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/South-Korea.png) **Korean**: [ParkSB/javascript-style-guide](https://github.com/ParkSB/javascript-style-guide)
-  - ![ru](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Russia.png) **Russian**: [leonidlebedev/javascript-airbnb](https://github.com/leonidlebedev/javascript-airbnb)
-  - ![es](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Spain.png) **Spanish**: [paolocarrasco/javascript-style-guide](https://github.com/paolocarrasco/javascript-style-guide)
-  - ![th](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Thailand.png) **Thai**: [lvarayut/javascript-style-guide](https://github.com/lvarayut/javascript-style-guide)
-  - ![tr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Turkey.png) **Turkish**: [eraycetinay/javascript](https://github.com/eraycetinay/javascript)
-  - ![ua](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Ukraine.png) **Ukrainian**: [ivanzusko/javascript](https://github.com/ivanzusko/javascript)
-  - ![vn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Vietnam.png) **Vietnam**: [dangkyokhoang/javascript-style-guide](https://github.com/dangkyokhoang/javascript-style-guide)
+  - ![en](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/United-Kingdom.png) **Αγγλικά**: [airbnb/javascript](https://github.com/airbnb/javascript)
+  - ![vn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Vietnam.png) **Βιετναμικά**: [dangkyokhoang/javascript-style-guide](https://github.com/dangkyokhoang/javascript-style-guide)
+  - ![bg](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Bulgaria.png) **Βουλγαρικά**: [borislavvv/javascript](https://github.com/borislavvv/javascript)
+  - ![fr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/France.png) **Γαλλικά**: [nmussy/javascript-style-guide](https://github.com/nmussy/javascript-style-guide)
+  - ![de](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Germany.png) **Γερμανικά**: [timofurrer/javascript-style-guide](https://github.com/timofurrer/javascript-style-guide)
+  - ![jp](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Japan.png) **Ιαπωνικά**: [mitsuruog/javascript-style-guide](https://github.com/mitsuruog/javascript-style-guide)
+  - ![es](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Spain.png) **Ισπανικά**: [paolocarrasco/javascript-style-guide](https://github.com/paolocarrasco/javascript-style-guide)
+  - ![it](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Italy.png) **Ιταλικά**: [sinkswim/javascript-style-guide](https://github.com/sinkswim/javascript-style-guide)
+  - ![ca](https://raw.githubusercontent.com/fpmweb/javascript-style-guide/master/img/catala.png) **Καταλανικά**: [fpmweb/javascript-style-guide](https://github.com/fpmweb/javascript-style-guide)
+  - ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Κινεζικά (Απλοποιημένα)**: [lin-123/javascript](https://github.com/lin-123/javascript)
+  - ![tw](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Taiwan.png) **Κινεζικά (Παραδοσιακά)**: [jigsawye/javascript](https://github.com/jigsawye/javascript)
+  - ![kr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/South-Korea.png) **Κορεατικά**: [ParkSB/javascript-style-guide](https://github.com/ParkSB/javascript-style-guide)
+  - ![ua](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Ukraine.png) **Ουκρανικά**: [ivanzusko/javascript](https://github.com/ivanzusko/javascript)
+  - ![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png) **Πορτογαλικά Βραζιλίας**: [armoucar/javascript-style-guide](https://github.com/armoucar/javascript-style-guide)
+  - ![ru](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Russia.png) **Ρωσικά**: [leonidlebedev/javascript-airbnb](https://github.com/leonidlebedev/javascript-airbnb)
+  - ![th](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Thailand.png) **Ταϊλανδικά**: [lvarayut/javascript-style-guide](https://github.com/lvarayut/javascript-style-guide)
+  - ![tr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Turkey.png) **Τουρκικά**: [eraycetinay/javascript](https://github.com/eraycetinay/javascript)
 
 ## Ο Οδηγός του Αισθητικού Οδηγού της JavaScript
 
-  - [Reference](https://github.com/airbnb/javascript/wiki/The-JavaScript-Style-Guide-Guide)
+  - [Παραπομπή](https://github.com/airbnb/javascript/wiki/The-JavaScript-Style-Guide-Guide)
 
 ## Συνομιλήστε Μαζί Μας Σχετικά Με Τη JavaScript
 
-  - Find us on [gitter](https://gitter.im/airbnb/javascript).
+  - Βρείτε μας στο [gitter](https://gitter.im/airbnb/javascript).
 
 ## Συνεισφέροντες
 
-  - [View Contributors](https://github.com/airbnb/javascript/graphs/contributors)
+  - [Δείτε τους συνεισφέροντες](https://github.com/airbnb/javascript/graphs/contributors)
 
 ## Άδεια
 
@@ -4007,7 +4007,7 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ Πίσω στην κορυφή](#πίνακας-περιεχομένων)**
 
 ## Τροπολογίες
 
